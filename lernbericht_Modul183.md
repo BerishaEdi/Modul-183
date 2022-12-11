@@ -24,6 +24,7 @@ String bereinigeInput = sanitizeInput(userInput);
 ```
 In diesem Beispiel wird eine Methode bereinigeInput() definiert, die die Benutzereingabe filtert und alle Zeichen entfernt, die für einen XSS-Angriff genutzt werden könnten. Die Methode wird dann verwendet, um die Benutzereingabe zu filtern und bösartigen Code zu entfernen.
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/69904270/206932366-7ab603e5-142c-4b1e-88ca-12676ea05b05.gif)
+Wie man sehen kann wird das Script nicht ausgeführt da er ausgefiltert wird.
 
 
 ## Verifikation
