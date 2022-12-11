@@ -12,7 +12,17 @@ Ich habe gelernt das ich eingaben von Benutzern filtern muss und alle Zeichen um
 ## Beschreibung
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+```Java
+// Filtert die Benutzereingabe und entfernt bösartigen Code
+function sanitizeInput(userInput) {
+  return userInput.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
 
+// Beispiel für die Verwendung des Filters
+let userInput = "<script>alert('XSS')</script>";
+let sanitizedInput = sanitizeInput(userInput);
+
+```
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
