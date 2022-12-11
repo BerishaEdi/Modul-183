@@ -1,4 +1,4 @@
-# Lern-Bericht
+# Lern-Bericht M183 Cross-Site-Scripting
 Eduard Berisha
 
 ## Einleitung
@@ -13,29 +13,27 @@ Ich habe gelernt das ich eingaben von Benutzern filtern muss und alle Zeichen um
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 ```Java
-// Filtert die Benutzereingabe und entfernt bösartigen Code
-function sanitizeInput(userInput) {
-  return userInput.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+// Filtert die Eingabe und ersetzt verdächtige Zeichen
+public String bereinigeInput(String userInput) {
+  return userInput.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 }
 
 // Beispiel für die Verwendung des Filters
-let userInput = "<script>alert('XSS')</script>";
-let sanitizedInput = sanitizeInput(userInput);
-
+String userInput = "<script>alert('XSS')</script>";
+String bereinigeInput = sanitizeInput(userInput);
 ```
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+In diesem Beispiel wird eine Methode bereinigeInput() definiert, die die Benutzereingabe filtert und alle Zeichen entfernt, die für einen XSS-Angriff genutzt werden könnten. Die Methode wird dann verwendet, um die Benutzereingabe zu filtern und bösartigen Code zu entfernen.
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/69904270/206932366-7ab603e5-142c-4b1e-88ca-12676ea05b05.gif)
+
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Der Code ausschnitt und die Beschreibung zeigen, wie ich die IT-Gefahr vermeiden kann. Im Code abschnitt sieht man das ich die wichtigsten Zeichen für die Einschleusung unerwünschten Codes richtig gefiltert und entschärft habe.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Ich habe das Prinzip von XSS schnell und gut verstanden und mir war schnell bewusst welche Massnahmen ich ziehen muss um solche Angriffe zuvorzukommen.
 
-👎 und etwas, was nicht gut lief.
+👎 Die Umsetzung lief im Grossen und Ganzen nicht schlecht jedoch musste ich zuerst im Internet und in den Schuldokumenten einige Informationen sammeln, um es dann sicher anwenden zu können.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+In der Zukunft möchte ich mich von Anfang an auf etwas fokussieren bis ich es nahezu mühelos anwenden kann um so unötige zeitvherschwendungen zu vermeiden.
