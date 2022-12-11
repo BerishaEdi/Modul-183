@@ -1,13 +1,13 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Eduard Berisha
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+In diesem Lernbericht möchte ich auf Cross-Site-Scripting (XSS) eingehen. Cross-Site-Scripting ist eine Art von Cyberangriff, bei dem bösartiger Code auf einer Webseite eingeschleust wird, um die Interaktion von Benutzern mit der Webseite zu manipulieren. Dies geschieht, indem der Angreifer versucht ein Script als Eingaben in einem Formularfeld auf der Webseite einzuschleusen.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Ich habe gelernt das ich eingaben von Benutzern filtern muss und alle Zeichen umschreiben soll die für einen XSS-Angriff genutzt werden könnten.
 
 ## Beschreibung
 
