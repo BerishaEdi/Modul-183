@@ -29,7 +29,7 @@ Wie man sehen kann wird das Script nicht ausgeführt da er ausgefiltert wird.
 
 ## Verifikation
 
-Der Code ausschnitt und die Beschreibung zeigen, wie ich die IT-Gefahr vermeiden kann. Im Code abschnitt sieht man das ich die wichtigsten Zeichen für die Einschleusung unerwünschten Codes richtig gefiltert und entschärft habe.
+Der Code ausschnitt und die Beschreibung zeigen, wie ich die IT-Gefahr vermeiden kann. Im Code abschnitt sieht man das ich die wichtigsten Zeichen für die Einschleusung unerwünschten Codes richtig gefiltert und entschärft habe und im GIF sieht man das es erfolgreich funktioniert hat.
 
 # Reflektion zum Arbeitsprozess
 
